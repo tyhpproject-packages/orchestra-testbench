@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/orchestra-testbench",
+    "description": "Tyhp type definitions for orchestra/testbench 11.2.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "11.2.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/orchestra-testbench-impl": "~11.2.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/orchestra-testbench-impl"
+        }
+    }
+}
